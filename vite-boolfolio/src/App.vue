@@ -18,5 +18,9 @@ import AppMain from './components/AppMain.vue';
 </script>
 
 <style lang="scss" scoped>
-
+h1{
+  color: rgb(220, 151, 151);
+  text-align: center;
+  padding: 20px;
+}
 </style>
