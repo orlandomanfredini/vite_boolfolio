@@ -1,13 +1,14 @@
 <template>
-  <h1>Ecco Il FronEnd dei miei progetti</h1>
-  <AppMain />
+  ciao
+  <AppHeader />
 </template>
 
 <script>
-import AppMain from './components/AppMain.vue';
+import AppHeader from './pages/AppHeader.vue';
+
   export default {
     components: {
-      AppMain
+      AppHeader
     },
     data(){
       return {
@@ -18,9 +19,5 @@ import AppMain from './components/AppMain.vue';
 </script>
 
 <style lang="scss" scoped>
-h1{
-  color: rgb(220, 151, 151);
-  text-align: center;
-  padding: 20px;
-}
+
 </style>
