@@ -1,7 +1,9 @@
 import { createApp } from 'vue'
 import './assets/scss/general.scss'
 import {createRouter, createWebHistory} from 'vue-router'
-import AppHome from './assets/pages/AppHome.vue'
+import AppHome from './pages/AppHome.vue'
+import AppContacts from './pages/AppContacts.vue'
+import AppProjects from './pages/AppProjects.vue'
 import App from './App.vue'
 
 
@@ -10,8 +12,8 @@ const router = createRouter({
     history: createWebHistory(),
     routes:  [
         {path: '/', name: 'home', component: AppHome},
-        {path: '/portfolio', name: 'portfolio', component: AppHeader},
-        {path: '/contact', name: 'contact', component: AppHeader},
+        {path: '/portfolio', name: 'portfolio', component: AppProjects},
+        {path: '/contact', name: 'contact', component: AppContacts},
     ]
 
 })

@@ -1,10 +1,10 @@
 <template>
-  ciao
-  <AppHeader />
+ <AppHeader />
+  <router-view></router-view>
 </template>
 
 <script>
-import AppHeader from './pages/AppHeader.vue';
+import AppHeader from './components/AppHeader.vue';
 
   export default {
     components: {
