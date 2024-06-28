@@ -8,8 +8,6 @@
                         <RouterLink class="link" :to="{name : 'home'}">Home</RouterLink>
                         <RouterLink class="link" :to="{name : 'portfolio'}">Projects</RouterLink>
                         <RouterLink class="link" :to="{name : 'contact'}">Contact us</RouterLink>
-                        ciao
-                        
                     </ul>
                 </div>
             </div>
