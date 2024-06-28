@@ -11,6 +11,9 @@
                 </strong>
 
             </div>
+            <strong>
+                <RouterLink :to="{name: 'portfolio.show', params: {slug: project.slug}}">View More...</RouterLink>
+            </strong>
             
 
 
@@ -19,11 +22,18 @@
 </template>
 
 <script>
+import axios from 'axios';
     export default {
+        
         props: ['project'],
         data(){
             return{
                 tecnology: 0,
+            }
+        },
+        methods: {
+            fetchProject(){
+                axios.get('')
             }
         }
     }
